@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" >
     <link rel="stylesheet" type="text/css" href="../CSS/listall.css" />
 
-    <title>Doadores e Produtos livres</title>
+    <title>Doadores</title>
 </head>
 <body>
-    <div class="doad-prod">
-    <h2>Lista de Doadores</h2>
+    
 
+    <div class="doador">
+        <h2>Lista de Doadores</h2>
     <table>
         <thead>
             <tr>
@@ -22,16 +23,18 @@
                 <th>Telefone</th> 
                 <th>E-mail</th> 
                 <th>Cep</th> 
-                <th>Produto oferecido</th> 
             </tr>
         </thead>
+        
+    
         <tbody id="doador-lista">
 
         </tbody>
     </table>
     <button onclick="AbrirTelaCreate()">Adicionar novo Doador</button>
-</div>
-    <script src="../JS/listall.js"></script>
+    <button onclick="AbrirTelaHome()">Home</button>
+    </div>
+    <script src="../JS/listdoad.js"></script>
 </body>
 
 </html>

@@ -29,6 +29,13 @@ namespace Doador.api.Controllers
             var doadores = await _doadorService.GetAll();
             return Ok(doadores);
         }
+        [HttpGet]
+        [Route("ObterDoadoresProdutos")]
+        public async Task<IActionResult> ObterDoadoresProdutos()
+        {
+            var doadoresProdutos = await _doadorService.GetAllDoadoresProdutos();
+            return Ok(doadoresProdutos);
+        }
 
     }
 }

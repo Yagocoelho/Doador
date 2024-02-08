@@ -6,7 +6,29 @@ body{
     margin: 0;
     padding: 0;
 }
+.container{
+  padding-top: 5%;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  min-width: 100vh; /* Para ocupar toda a altura da tela */
 
+}
+.info{
+  background-color: aliceblue;
+  display: block;
+  text-align: center;
+  width: 600px;
+  margin: 50px 50px 50px 50px;
+  border-radius: 15px;
+  align-items: center;
+  padding: 2%;
+
+}
+.Navbar{
+  position: fixed;
+  width: 100%;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -34,3 +56,29 @@ ul {
   .active {
     background-color: #CC5803;
   }
+  button{
+    border: none;
+    background-color: #CC5803;
+    border-radius: 5%;
+    height: 30px;
+    width: 85px;
+  }
+  .button{
+    background-color: white;
+    padding: 2%;
+    border-radius: 15px;
+    text-align: center;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}

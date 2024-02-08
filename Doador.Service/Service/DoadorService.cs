@@ -1,5 +1,6 @@
 ﻿using Doador.Domain.Commands;
 using Doador.Domain.Interfaces;
+using Doador.Domain.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,11 @@ namespace Doador.Service.Service
         public async Task<IEnumerable<DoadorCommand>> GetAll()
         {
             return await _repository.GetAll();
+        }
+
+        public async Task<IEnumerable<DoadorProdutoViewModel>> GetAllDoadoresProdutos()
+        {
+            return await _repository.GetAllDoadoresProdutos();
         }
 
         public async Task<string> PostAsync(DoadorCommand command)

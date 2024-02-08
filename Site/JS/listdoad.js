@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function(){
             <td>${doador.telefone}</td>
             <td>${doador.email}</td>
             <td>${doador.cep}</td>
-            <td>${doador.nomeProduto}</td>
             <td><button${id="TelaUpdate"}>Editar</button></td>
             <td> <button>Excluir</button>
             </td>

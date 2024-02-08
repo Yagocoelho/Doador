@@ -1,6 +1,7 @@
 ﻿using Dapper;
 using Doador.Domain.Commands;
 using Doador.Domain.Interfaces;
+using Doador.Domain.ViewModel;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -52,7 +53,25 @@ namespace Doador.Repository.Repository
             throw new NotImplementedException();
         }
 
+        public async Task<IEnumerable<DoadorProdutoViewModel>> GetAllDoadoresProdutos()
+        {
+            string queryjoin = @"
+        SELECT 
+        D.DoadorId, D.DoadorNome, D.Cidade, D.Estado, D.Email, D.Telefone, D.Cep,
+        P.IdProduto AS IdProduto, P.NomeProduto, P.Descricao AS Descricao
+        FROM Doador D
+        JOIN 
+        Produto P ON D.DoadorId = P.DoadorId";
+
+            using (SqlConnection con = new SqlConnection(conexao))
+            {
+                var result = await con.QueryAsync<DoadorProdutoViewModel>(queryjoin);
+                return result;
+            }
+        }
+
+
     }
 
-    
+
 }

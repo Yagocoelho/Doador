@@ -9,14 +9,9 @@ document.addEventListener("DOMContentLoaded", function(){
             const row = document.createElement('tr');
 
             row.innerHTML= `
-            <td>${doador.doadorId}</td>
+            <td>${doador.nomeProduto}</td>
             <td>${doador.doadorNome}</td>
             <td>${doador.cidade}</td>
-            <td>${doador.estado}</td>
-            <td>${doador.telefone}</td>
-            <td>${doador.email}</td>
-            <td>${doador.cep}</td>
-            <td>${doador.nomeProduto}</td>
             <td><button${id="TelaUpdate"}>Editar</button></td>
             <td> <button>Excluir</button>
             </td>

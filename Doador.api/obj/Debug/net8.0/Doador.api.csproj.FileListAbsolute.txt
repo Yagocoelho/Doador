@@ -89,3 +89,4 @@ C:\Users\yago.scoelho\source\repos\Doador\Doador.api\obj\Debug\net8.0\refint\Doa
 C:\Users\yago.scoelho\source\repos\Doador\Doador.api\obj\Debug\net8.0\Doador.api.pdb
 C:\Users\yago.scoelho\source\repos\Doador\Doador.api\obj\Debug\net8.0\Doador.api.genruntimeconfig.cache
 C:\Users\yago.scoelho\source\repos\Doador\Doador.api\obj\Debug\net8.0\ref\Doador.api.dll
+C:\Users\yago.scoelho\source\repos\Doador\Doador.api\obj\Debug\net8.0\Doador.api.sourcelink.json

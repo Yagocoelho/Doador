@@ -31,5 +31,44 @@ th{
 button{
     cursor: pointer;
     padding: 5px 10px;
+    background-color: #CC5803;
+    border-radius: 5%;
+    border: none;
 
+}
+.doador{
+    background-color: #333;
+    width: 900px;
+    display: block;
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+    border-radius: 15px;
+    align-items: center;
+    padding: 2%;
+    margin-left: 19%;
+    
+}
+.produto{
+    background-color: #333;
+    width: 900px;
+    display: block;
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+    border-radius: 15px;
+    align-items: center;
+    padding: 2%;
+    margin-left: 19%;
+    
+}
+.doad-prod{
+    background-color: #333;
+    width: 900px;
+    display: block;
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+    border-radius: 15px;
+    align-items: center;
+    padding: 2%;
+    margin-left: 19%;
+    
 }

@@ -29,3 +29,4 @@ C:\Users\yago.scoelho\source\repos\Doador\Doador.Repository\obj\Debug\net8.0\Doa
 C:\Users\yago.scoelho\source\repos\Doador\Doador.Repository\obj\Debug\net8.0\refint\Doador.Repository.dll
 C:\Users\yago.scoelho\source\repos\Doador\Doador.Repository\obj\Debug\net8.0\Doador.Repository.pdb
 C:\Users\yago.scoelho\source\repos\Doador\Doador.Repository\obj\Debug\net8.0\ref\Doador.Repository.dll
+C:\Users\yago.scoelho\source\repos\Doador\Doador.Repository\obj\Debug\net8.0\Doador.Repository.sourcelink.json

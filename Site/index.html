@@ -5,23 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" >
     <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
-
+    <script src="./JS/index.js"></script>
     <title>Precisa ? Eu Tenho !</title>
 </head>
 <body>
     <div class="Navbar">
-    <ul>
-        <li><a class="active" onclick="AbrirTelaHome()">Home</a></li>
-        <li><a href="#news">Produtos</a></li>
-        <li><a href="#news">Entidades</a></li>
-        <li><a onclick="AbrirTelalistall()">Doadores</a></li>
-        <li><a href="#about">Proposito</a></li>
-      </ul>
+        <ul>
+            <li><a class="active" onclick="AbrirTelaHome()">Home</a></li>
+            <li><a onclick="AbrirTelaProdutos()">Produtos</a></li>
+            <li><a href="#news">Entidades</a></li>
+            <li><a onclick="AbrirTelaDoadores()">Doadores</a></li>
+            <li><a href="#about">Proposito</a></li>
+          </ul>
+        </div>
+    <div class="container">
+    <div a="#about" class="info">
+    <h1>Sobre nós</h1>
+    <p>Somos uma API em construção e desenvolvimento continuo, nosso objetivo é facilitar o meio de  
+    portadores de necessidade especiais que precisam de algum produto com os que estão doando produtos usados ou novos para 
+    assim facilitar os encontros por meio de entidades beneficentes que receberiam os produtos de acordo com o local cadastrado. </p>
+    <img src="./Mandisability.jpg" width="400" height="300">
     </div>
+    <div class="button">
     <h2>Eu eu Preciso!</h2>
+    <button onclick="AbrirTelaProdutos()">Listar Produtos</button>
     <h2>Eu Tenho!</h2>
-    <button onclick="AbrirTelalistall()">Listar Doadores</button>
-    <script src="./JS/index.js"></script>
+    <button onclick="AbrirTelaDoadores()">Listar Doadores</button>
+    </div>
+    </div>
+    <footer>
+        <p>© 2024 Yago Coelho. Todos os direitos reservados.</p>
+    </footer>
 </body>
 
 </html>

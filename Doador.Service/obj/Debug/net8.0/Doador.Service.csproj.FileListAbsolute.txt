@@ -33,3 +33,4 @@ C:\Users\yago.scoelho\source\repos\Doador\Doador.Service\obj\Debug\net8.0\Doador
 C:\Users\yago.scoelho\source\repos\Doador\Doador.Service\obj\Debug\net8.0\refint\Doador.Service.dll
 C:\Users\yago.scoelho\source\repos\Doador\Doador.Service\obj\Debug\net8.0\Doador.Service.pdb
 C:\Users\yago.scoelho\source\repos\Doador\Doador.Service\obj\Debug\net8.0\ref\Doador.Service.dll
+C:\Users\yago.scoelho\source\repos\Doador\Doador.Service\obj\Debug\net8.0\Doador.Service.sourcelink.json

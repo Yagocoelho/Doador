@@ -21,3 +21,4 @@ C:\Users\yago.scoelho\source\repos\Doador\Doador.Domain\obj\Debug\net8.0\Doador.
 C:\Users\yago.scoelho\source\repos\Doador\Doador.Domain\obj\Debug\net8.0\refint\Doador.Domain.dll
 C:\Users\yago.scoelho\source\repos\Doador\Doador.Domain\obj\Debug\net8.0\Doador.Domain.pdb
 C:\Users\yago.scoelho\source\repos\Doador\Doador.Domain\obj\Debug\net8.0\ref\Doador.Domain.dll
+C:\Users\yago.scoelho\source\repos\Doador\Doador.Domain\obj\Debug\net8.0\Doador.Domain.sourcelink.json
